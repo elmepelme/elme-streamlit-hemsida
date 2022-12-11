@@ -25,6 +25,7 @@ st.markdown('---')
 c1, c2 = st.columns((1,1))
 
 with c1:
+    st.subheader("Excel-fil utseende")
     st.write(
     'Web-App för att sammanställa statistik åt Kulturtråden. ' \
     'Första Excel-filen som ska matas in ska vara lik följande bild, ' \
