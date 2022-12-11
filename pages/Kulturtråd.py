@@ -30,7 +30,7 @@ with c1:
     'Första Excel-filen som ska matas in ska vara lik följande bild, ' \
     'extra viktigt är att kolumn-namnen är samma som i bilden.')
 with c2:
-    lista_exempel_bild = Image.open(r'C:\Users\elmir\Desktop\jobb\Webpage\Lista_exempel.png')
+    lista_exempel_bild = Image.open(r'Lista_exempel.png')
     st.image(lista_exempel_bild, caption = 'Hur Excel-filen med skol- och programlista ska vara strukturerad.')
 
 

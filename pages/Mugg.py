@@ -12,7 +12,7 @@ st.set_page_config(
 
 st.title('Cirkulära tryck på cylinder-formade muggar ☕')
 
-mugg_diameter_bild = Image.open(r'C:\Users\elmir\Desktop\jobb\Webpage\mugg-diameter.png')
+mugg_diameter_bild = Image.open(r'mugg-diameter.png')
 c1, c2 = st.columns((2,1))
 
 with c1:
@@ -27,7 +27,7 @@ st.markdown('---')
 
 c3, c4, c5 = st.columns((1,1,1))
 
-mugg_latex = Image.open(r'C:\Users\elmir\Desktop\jobb\Webpage\mugg-latex.png')
+mugg_latex = Image.open(r'mugg-latex.png')
 
 with c3:
     D = st.number_input('Fyll i diametern på muggen (mm):', min_value = 0.01)
